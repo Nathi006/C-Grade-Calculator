@@ -8,7 +8,7 @@ int main(){
     //allow the user to take input
     scanf("%d", &count);
 
-    for (int i =0; i < count; i++){
+    for (int i =1; i <= count; i++){
         printf("enter the grade %d: ", i);
         scanf("%lf", &grade);
         sum += grade;
@@ -34,4 +34,5 @@ char averageGrade(double average){
     else{
         return 'F';
     }
+
 }
